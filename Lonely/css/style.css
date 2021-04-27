@@ -680,3 +680,7 @@ a.btn:hover {
 	}
 	
 }
+
+p#main_text{
+    padding-right: 200px;
+}
