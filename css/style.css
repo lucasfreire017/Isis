@@ -68,7 +68,7 @@ a:focus {
 }
 
 img.img-responsive {
-	margin-bottom: 20px;
+	
 }
 
 
@@ -310,12 +310,12 @@ hr {
 }
 
 #intro.intro {
-	padding:200px 0 150px 0;
+	padding:200px 0 280px 0;
 }
 
 .intro .slogan {
 	text-align: center;
-
+    padding: 50px;
 }
 
 .intro .page-scroll {
@@ -489,7 +489,7 @@ Parallax
 ============================= */
 
 #separator {	
-	background-image: url(../img/parallax-bg.jpg);
+	background-image: url(../img/teste2.jpeg);
 }
 
 #separator .icon {
@@ -681,6 +681,24 @@ a.btn:hover {
 	
 }
 
-p#main_text{
+img#img1{
+    position: relative;
+    margin-bottom: 50px;
+    top: 20px;
+    left: 400px;
+}
+
+
+
+img#img2{
+    position: relative;
+    margin-bottom: 50px;
+    top: 20px;
+    left: 400px;
+}
+    
+
+p#describe_text {
+    padding-top: 20px;
     padding-right: 200px;
 }
