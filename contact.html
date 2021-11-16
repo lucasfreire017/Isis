@@ -25,6 +25,7 @@
    ================================================== -->
 	<script src="js/modernizr.js"></script>
 	<script src="js/pace.min.js"></script>
+	<script src="js/mail.js"></script>
 
    <!-- favicons
 	================================================== -->
@@ -128,7 +129,7 @@
 
 						</div>
 
-						<form name="cForm" id="cForm" method="post" action="">
+						<form name="cForm" id="cForm" method="post">
 	  					   <fieldset>
 
 	                     <div class="form-field">
@@ -147,7 +148,7 @@
 	                        <textarea name="cMessage" id="cMessage" class="full-width" placeholder="Deixe alguma mensagem!" ></textarea>
 	                     </div>
 
-	                     <button type="submit" class="submit button-primary full-width-on-mobile">Enviar</button>
+	                     <button type="submit" onclick="sendMail(); return false" class="submit button-primary full-width-on-mobile">Enviar</button>
 
 	  					   </fieldset>
   				      </form> <!-- end form -->
